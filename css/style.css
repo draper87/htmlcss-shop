@@ -1,0 +1,44 @@
+/* Regole reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Regole griglia */
+.col {
+  position: relative;
+  display: inline-block;
+}
+
+.prodotto1 {
+  position: absolute;
+  background-color: green;
+  right: 0;
+}
+
+.prodotto2 {
+  position: absolute;
+  background-color: red;
+  right: 0;
+}
+
+.prodotto3 {
+  position: absolute;
+  background-color: green;
+  right: 0;
+}
+
+/* Regole Cuore */
+.heart {
+  font-size: 30px;
+  position: absolute;
+  color: red;
+  bottom: 5px;
+  left: 50%;
+  display: none;
+}
+
+.col:hover .heart {
+  display: block;
+}
